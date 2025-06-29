@@ -61,7 +61,7 @@ export const SKILL_DATA = [
     skill_name: "MongoDB",
     image: "mongodb.png",
     width: 40,
-    height: 40,
+    height: 30,
   },
 ] as const;
 
