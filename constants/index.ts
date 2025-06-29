@@ -66,16 +66,7 @@ export const SKILL_DATA = [
 ] as const;
 
 export const SOCIALS = [
-  {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "",
-  },
-  {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
-  },
+  
 ] as const;
 
 export const FRONTEND_SKILL = [
