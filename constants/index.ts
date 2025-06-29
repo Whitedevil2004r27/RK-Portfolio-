@@ -69,12 +69,7 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
-  },
-  {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
+    link: "",
   },
   {
     name: "Twitter",
@@ -116,6 +111,12 @@ export const PROJECTS = [
    
     image: "/projects/portfolio.webp",
     link: "https://speedlineautoparts.netlify.app/",
+  },
+  {
+    title: "AstroWave-Portfolio",
+   
+    image: "/projects/portfolio.webp",
+    link: "https://rk-portfolio-orpin.vercel.app/",
   },
 ] as const;
 
