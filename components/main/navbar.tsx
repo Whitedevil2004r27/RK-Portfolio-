@@ -16,7 +16,7 @@ export const Navbar = () => {
         {/* Logo & Name */}
         <Link href="#about-me" className="flex items-center" onClick={closeMenu}>
           <Image
-            src="/projects/logo.jpg" // ✅ Your uploaded logo image
+            src="/projects/new logo.png" // ✅ Your uploaded logo image
             alt="Logo"
             width={48} // 🔧 Icon size (2xl)
             height={48}
