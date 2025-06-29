@@ -113,9 +113,9 @@ export const PROJECTS = [
     link: "https://speedlineautoparts.netlify.app/",
   },
   {
-    title: "AstroWave-Portfolio",
+    title: "AstroWave Portfolio",
 
-    image: "/projects/rf-portfolio.webp",
+    image: "/projects/RK-webcraft.webp",
     link: "https://rk-portfolio-orpin.vercel.app/",
   },
 ] as const;
