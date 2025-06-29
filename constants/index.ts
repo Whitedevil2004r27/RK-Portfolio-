@@ -114,8 +114,8 @@ export const PROJECTS = [
   },
   {
     title: "AstroWave-Portfolio",
-   
-    image: "/projects/portfolio.webp",
+
+    image: "/projects/rf-portfolio.webp",
     link: "https://rk-portfolio-orpin.vercel.app/",
   },
 ] as const;
