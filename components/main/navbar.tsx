@@ -2,8 +2,10 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { NAV_LINKS, SOCIALS } from "@/constants";
 import { motion, AnimatePresence } from "framer-motion";
+import { SOCIALS } from "@/constants/socials";
+import { NAV_LINKS } from "@/constants/index";
+
 
 export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
