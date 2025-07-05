@@ -87,11 +87,12 @@ export const Navbar = () => {
 
             {/* Mobile Social Icons */}
             <div className="flex space-x-6 mt-8">
-              {SOCIALS.map(({ link, name, icon: Icon }) => (
-                <Link key={name} href={link} target="_blank" rel="noopener noreferrer">
-                  <Icon className="h-8 w-8 text-white hover:text-[rgb(112,66,248)] transition" />
-                </Link>
-              ))}
+             {SOCIALS.map(({ link, name, icon: Icon }) => (
+  <Link key={name} href={link} target="_blank" rel="noopener noreferrer">
+    <Icon className="h-6 w-6 text-white hover:text-[rgb(112,66,248)] transition" />
+  </Link>
+))}
+
             </div>
           </motion.div>
         )}
